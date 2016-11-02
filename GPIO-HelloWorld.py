@@ -1,10 +1,10 @@
-import RPi.GPIO as GPIO     #importa a bibliote GPIO
-import time                 #importa a biblioteca de temporização
+import RPi.GPIO as GPIO     #importa a biblioteca GPIO
+import time
 
 GPIO.setmode(GPIO.BOARD)    #GPIO - utilizando a pinagem fisica da placa
 GPIO.setwarnings(False)     #desabilitar mensagens de warning
 
-GPIO.setup(7, GPIO.OUT)     #define o pino 7 como saída
+GPIO.setup(7, GPIO.OUT)     #define o pino 7 como saida
 
 while(1):
     print('LED (7) ON')

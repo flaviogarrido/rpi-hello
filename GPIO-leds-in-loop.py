@@ -1,8 +1,7 @@
-import RPi.GPIO as GPIO     #importa a bibliote GPIO
-import time                 #importa a biblioteca de temporização
+import RPi.GPIO as GPIO     #importa a biblioteca GPIO
+import time
 
-GPIO.setmode(GPIO.BCM)      #GPIO - utilizando a numerção BCM(GPIO)
-#GPIO.setwarnings(False)     #desabilitar mensagens de warning
+GPIO.setmode(GPIO.BCM)      #GPIO - utilizando a numercao BCM(GPIO)
 
 time_high = 0.05
 time_low = 0
